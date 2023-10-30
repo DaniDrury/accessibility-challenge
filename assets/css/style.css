@@ -1,3 +1,4 @@
+/* Universal Selector - general page styling applicable to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,16 +6,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* background color for body of webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* header styling */
 header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* heading styling for h1-h3 */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -31,6 +35,7 @@ h3 {
     text-align: center;
 }
 
+/* navigation styling */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -48,11 +53,14 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* end navigation styling */
 
+/* font-size for all paragraph content */
 p {
     font-size: 16px;
 }
 
+/* aside styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -63,10 +71,12 @@ aside {
     background-color: #2589bd;
 }
 
+/* text color for "seo" characters in header */
 #seo {
     color: #d9dcd6;
 }
 
+/* background image for 1st article element */
 #bkgrnd-image {
     height: 800px;
     width: 100%;
@@ -76,12 +86,14 @@ aside {
     background-position: center;
 }
 
-.content {
+/* 2nd article styling */
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* 2nd artcle sections styling */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -103,7 +115,9 @@ aside {
     float: right;
     margin-left: 25px;
 }
+/* end article sections styling */
 
+/* aside sections styling */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
@@ -114,7 +128,9 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end aside sections styling */
 
+/* footer styling */
 footer {
     padding: 30px;
     clear: both;
