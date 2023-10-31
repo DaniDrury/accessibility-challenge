@@ -16,6 +16,8 @@ header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
+    display: inline-block;
+    width: 100%;
 }
 
 /* heading styling for h1-h3 */
