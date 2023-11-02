@@ -6,7 +6,7 @@ As a coding boot camp student, I refactored existing code in order to further my
 
 ## Usage
 
-GitPages URL: 
+GitPages URL: https://danidrury.github.io/accessibility-challenge/
 
 ![full page screenshot](./assets/images/screenshot.png.png)
 
