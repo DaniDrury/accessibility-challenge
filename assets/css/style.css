@@ -42,6 +42,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
+    clear: both;
     font-size: 20px;
 }
 
@@ -99,7 +100,6 @@ aside {
 
 /* 2nd article sections styling - size, spacing and background color */
 .services {
-    /* display: inline-block; */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -137,7 +137,7 @@ aside {
 }
 /* end aside sections styling */
 
-/* footer styling - set font size and alignment */
+/* footer styling - set position in regard to floating elements, font style, size and alignment */
 footer {
     padding: 30px;
     clear: both;
