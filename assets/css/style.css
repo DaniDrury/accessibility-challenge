@@ -11,7 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* header styling */
+/* header styling - set header background & text color, width, padding & display type */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -20,7 +20,7 @@ header {
     width: 100%;
 }
 
-/* heading styling for h1-h3 */
+/* heading styling for h1-h3 - set display type, font size & font-family for heading tags */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -37,7 +37,7 @@ h3 {
     text-align: center;
 }
 
-/* navigation styling */
+/* navigation styling - make nav links display to the right with appropriate spacing */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,29 +45,31 @@ nav {
     font-size: 20px;
 }
 
+/* nav styling - list items do not display with bullet points and have appropriate spacing */
 li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* nav styling - change link text color and remove underline from links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 /* end navigation styling */
 
-/* font-size for all paragraph content */
+/* specifies font-size for all paragraph content */
 p {
     font-size: 16px;
 }
 
-/* aside styling */
+/* aside styling - set container position, size & spacing, specify background color */
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
+    clear: both;
     width: 20%;
     height: 100%;
     background-color: #2589bd;
@@ -88,15 +90,16 @@ aside {
     background-position: center;
 }
 
-/* 2nd article styling */
+/* 2nd article styling - set width, display type, margin */
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* 2nd article sections styling */
+/* 2nd article sections styling - size, spacing and background color */
 .services {
+    /* display: inline-block; */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -104,27 +107,29 @@ aside {
     color: #ffffff;
 }
 
+/* set image heigh within content sections */
 .services img {
     max-height: 200px;
 }
 
+/* image positioning within content sections */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
 /* end article sections styling */
 
-/* aside sections styling */
+/* aside sections styling - set spacing and text color */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* set aside images size and spacing */
 .benefit-sub img {
     display: block;
     margin: 10px auto;
@@ -132,7 +137,7 @@ aside {
 }
 /* end aside sections styling */
 
-/* footer styling */
+/* footer styling - set font size and alignment */
 footer {
     padding: 30px;
     clear: both;
